@@ -1,9 +1,9 @@
 ---
-name: 공통 이슈 템플릿
+name: General Issue Template
 about: 모든 화면 및 기능에 사용할 기본 이슈 템플릿입니다.
 title: "[Feature]"
 labels: ''
-assignees: ''
+assignees: JInsunnya
 
 ---
 
