@@ -19,6 +19,7 @@ export const Content = styled.div`
     align-items: flex-start;
     flex-direction: row;
     gap: 0px;
+    width: 100%;
 `;
 
 export const Images = styled.div`
@@ -26,16 +27,11 @@ export const Images = styled.div`
     flex-direction: column;
     gap: 10px;
     flex: 1;
-    padding: 0%;
-    width: fit-content;
-    margin-left: 70px;
-    margin-top: -15px;
 `;
 
 export const ImageRow = styled.div`
     display: flex;
     gap: 10px;
-    justify-content: flex-start;
     align-items: center;
 `;
 
@@ -43,15 +39,12 @@ export const Text = styled.div`
     flex: 1;
     font-size: 15px;
     text-align: left;
-    margin-left: -180px;
-    width: 700px;
 `;
 
-export const TextCenter = styled.div`
+export const LastText = styled.div`
     flex: 1;
     font-size: 16px;
-    text-align: Center;
-    width: 700px;
+    text-align: left;
 
     a {
         color: #007aff;
