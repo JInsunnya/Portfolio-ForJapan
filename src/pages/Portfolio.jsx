@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as P from './PortfolioStyles.js';
 import Header from '../components/Header.jsx';
@@ -17,25 +17,42 @@ import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
 
 const Portfolio = () => {
+    const aboutRef = useRef(null);
+    const activityRef = useRef(null);
+    const projectRef = useRef(null);
+    const skillsRef = useRef(null);
+    const studyRef = useRef(null);
+    const contactRef = useRef(null);
+
     return (
         <P.Container>
-            <Header />
+            <Header
+                onScroll={{
+                    aboutRef,
+                    activityRef,
+                    projectRef,
+                    skillsRef,
+                    studyRef,
+                    contactRef,
+                }}
+            />
+            <P.Aboutme ref={aboutRef}>ABOUT ME</P.Aboutme>
             <Aboutme />
-            <P.Activity>ACTIVITY</P.Activity>
+            <P.Activity ref={activityRef}>ACTIVITY</P.Activity>
             <Activity />
-            <P.Projects>PROJECTS</P.Projects>
+            <P.Projects ref={projectRef}>PROJECTS</P.Projects>
             <Project1 />
             <Project2 />
             <Project3 />
             <Project4 />
-            <P.Skills>SKILLS</P.Skills>
+            <P.Skills ref={skillsRef}>SKILLS</P.Skills>
             <Skills />
-            <P.Study>STUDY</P.Study>
+            <P.Study ref={studyRef}>STUDY</P.Study>
             <Study1 />
             <Study2 />
             <Study3 />
             <Study4 />
-            <P.Contact>CONTACT</P.Contact>
+            <P.Contact ref={contactRef}>CONTACT</P.Contact>
             <Contact />
             <Footer />
         </P.Container>

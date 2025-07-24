@@ -1,28 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import * as H from './HeaderStyles.js';
 
-const Header = () => {
-    const navigate = useNavigate();
-
-    const handleAboutme = () => {
-        navigate();
-    };
-
-    const handleActivity = () => {
-        navigate();
-    };
-
-    const handleProject = () => {
-        navigate();
-    };
-
-    const handleSkills = () => {
-        navigate();
-    };
-
-    const handleContact = () => {
-        navigate();
+const Header = ({ onScroll }) => {
+    const scrollTo = (ref) => {
+        if (ref?.current) {
+            ref.current.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     return (
@@ -31,11 +14,12 @@ const Header = () => {
                 <H.Name>Kim Jinseon</H.Name>
             </H.Left>
             <H.Right>
-                <H.Aboutme>About me</H.Aboutme>
-                <H.Activity>Activity</H.Activity>
-                <H.Project>Project</H.Project>
-                <H.Skills>Skills</H.Skills>
-                <H.Contact>Contact</H.Contact>
+                <H.Aboutme onClick={() => scrollTo(onScroll.aboutRef)}>About me</H.Aboutme>
+                <H.Activity onClick={() => scrollTo(onScroll.activityRef)}>Activity</H.Activity>
+                <H.Project onClick={() => scrollTo(onScroll.projectRef)}>Project</H.Project>
+                <H.Skills onClick={() => scrollTo(onScroll.skillsRef)}>Skills</H.Skills>
+                <H.Study onClick={() => scrollTo(onScroll.studyRef)}>Study</H.Study>
+                <H.Contact onClick={() => scrollTo(onScroll.contactRef)}>Contact</H.Contact>
             </H.Right>
         </H.Container>
     );
