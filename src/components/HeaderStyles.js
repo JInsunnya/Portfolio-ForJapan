@@ -40,6 +40,10 @@ export const Skills = styled.div`
     cursor: pointer;
 `;
 
+export const Study = styled.div`
+    cursor: pointer;
+`;
+
 export const Contact = styled.div`
     cursor: pointer;
 `;

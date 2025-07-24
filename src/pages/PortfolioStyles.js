@@ -13,6 +13,12 @@ export const Container = styled.div`
     text-align: center;
 `;
 
+export const Aboutme = styled.div`
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+`;
+
 export const Activity = styled.div`
     font-size: 35px;
     margin-top: 10%;
