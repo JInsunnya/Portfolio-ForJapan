@@ -1,11 +1,17 @@
 import React from 'react';
 import * as S from './StudyStyles.js';
+import Algorithm from '../assets/Algorithm.svg';
 
 const Study4 = () => {
     return (
         <S.Container>
             <S.Content>
-                <S.TextCenter>
+                <S.Images>
+                    <S.ImageRow>
+                        <img src={Algorithm} />
+                    </S.ImageRow>
+                </S.Images>
+                <S.LastText>
                     어려운 문제를 여러 번 풀어본 것은 아니나, <br />
                     코딩테스트도 조금씩 틈틈이 공부하고 있었습니다. <br />
                     또한 학교에서도 자료구조, 알고리즘 강의를 수강했기에 코딩 문제들이 낯설지 않습니다. <br />
@@ -26,9 +32,9 @@ const Study4 = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        노션 링크
+                        포에이 트러블슈팅 학습 노션 링크
                     </a>
-                </S.TextCenter>
+                </S.LastText>
             </S.Content>
         </S.Container>
     );

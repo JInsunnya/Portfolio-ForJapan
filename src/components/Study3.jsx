@@ -1,25 +1,38 @@
 import React from 'react';
 import * as S from './StudyStyles.js';
+// import EFConversation from '../assets/EFConversation.svg';
+import EFConversation1 from '../assets/EFConversation1.svg';
+import EFConversation2 from '../assets/EFConversation2.svg';
+// import IFConversation from '../assets/IFConversation.svg';
+import IFConversation1 from '../assets/IFConversation1.svg';
+import IFConversation2 from '../assets/IFConversation2.svg';
+import MFLC1 from '../assets/MFLC1.svg';
+import MFLC2 from '../assets/MFLC2.svg';
 
 const Study3 = () => {
     return (
         <S.Container>
             <S.Content>
-                {/* <S.Images>
+                <S.Images>
                     <S.ImageRow>
-                        <img src={IntelliJ} />
-                        <img src={Java} />
-                        <img src={Spring} />
+                        <img src={EFConversation1} />
                     </S.ImageRow>
                     <S.ImageRow>
-                        <img src={Sql} />
-                        <img src={DBeaver} />
-                        <img src={Aws} />
+                        <img src={EFConversation2} />
                     </S.ImageRow>
                     <S.ImageRow>
-                        <img src={Docker} />
+                        <img src={IFConversation1} />
                     </S.ImageRow>
-                </S.Images> */}
+                    <S.ImageRow>
+                        <img src={IFConversation2} />
+                    </S.ImageRow>
+                    <S.ImageRow>
+                        <img src={MFLC1} />
+                    </S.ImageRow>
+                    <S.ImageRow>
+                        <img src={MFLC2} />
+                    </S.ImageRow>
+                </S.Images>
                 <S.Text>
                     일본의 언어와 문화를 좋아합니다. <br />
                     따라서 비록 기초이나 일본어를 학습한 경험이 있습니다. <br />
@@ -30,6 +43,8 @@ const Study3 = () => {
                     처음 입학 당시에는 성적이 낮은 편에 속했으나, <br />
                     오로지 노력만으로 나중에는 프랑스어 강의에서 좋은 성적을 거두는 편에 속했고, <br />
                     회화에서도 A 성적까지 올라간 학생이 되었습니다. <br />
+                    비록 프랑스 살다 온 친구들처럼 자유롭게 구사하지는 못해 회화에서는 A0의 성적을 거두었지만, <br />
+                    프랑스어 작문, 독해 등의 다른 강의에서는 더 좋은 성적을 거둘 수 있었습니다. <br />
                     <br />
                     고등학생 당시 예체능을 전공하여 고등학교 2학년 때부터 제대로 공부를 시작했고 <br />
                     늦은 만큼 악착같은 노력으로 최대 전교 2등까지 올라갔던 경험이 있습니다. <br />

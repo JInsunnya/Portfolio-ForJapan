@@ -1,25 +1,22 @@
 import React from 'react';
 import * as S from './StudyStyles.js';
+import SoftwareEngineering from '../assets/SoftwareEngineering.svg';
+import IPE from '../assets/InfoProcessingEngineer.svg';
+import SEStudy from '../assets/SoftwareEngineeringStudy.svg';
 
 const Study2 = () => {
     return (
         <S.Container>
             <S.Content>
-                {/* <S.Images>
+                <S.Images>
                     <S.ImageRow>
-                        <img src={IntelliJ} />
-                        <img src={Java} />
-                        <img src={Spring} />
+                        <img src={SoftwareEngineering} />
                     </S.ImageRow>
                     <S.ImageRow>
-                        <img src={Sql} />
-                        <img src={DBeaver} />
-                        <img src={Aws} />
+                        <img src={IPE} />
+                        <img src={SEStudy} />
                     </S.ImageRow>
-                    <S.ImageRow>
-                        <img src={Docker} />
-                    </S.ImageRow>
-                </S.Images> */}
+                </S.Images>
                 <S.Text>
                     정보처리기사 필기를 공부해 본 경험이 있습니다. <br />
                     비록 시험에 응시를 하지는 않았으나, <br />
