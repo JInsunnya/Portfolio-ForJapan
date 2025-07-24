@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
-    width: 90%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +14,15 @@ export const Container = styled.div`
 
 export const TopGroup = styled.div`
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 40px;
     align-items: flex-start;
 `;
 
 export const BottomGroup = styled.div`
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 40px;
     align-items: flex-start;
     margin-top: 10%;
 `;
