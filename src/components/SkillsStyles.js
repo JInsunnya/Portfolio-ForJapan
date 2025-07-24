@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
-    width: 90%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,17 +14,20 @@ export const Container = styled.div`
 
 export const RowTop = styled.div`
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 `;
 
 export const RowMiddle = styled.div`
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 3%;
 `;
 
 export const RowBottom = styled.div`
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: flex-start;
     margin-top: 3%;
@@ -35,8 +38,8 @@ export const SkillIcon = styled.div`
     display: inline-block;
 
     img {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         transition: filter 0.3s;
     }
 
@@ -55,8 +58,8 @@ export const SkillIconPWA = styled.div`
     display: inline-block;
 
     img {
-        width: 170px;
-        height: 80px;
+        width: 150px;
+        height: 60px;
         transition: filter 0.3s;
     }
 
