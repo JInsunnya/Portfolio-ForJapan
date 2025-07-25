@@ -34,7 +34,7 @@ const Projects1 = () => {
                     >
                         앱 다운로드 링크
                     </P.Link>
-                    <P.Link>시뮬레이션 링크</P.Link>
+                    {/* <P.Link>시뮬레이션 링크</P.Link> */}
                     <P.Link
                         href="https://sun-mistake-9ab.notion.site/1b045f2f676b809c936cc8566752b66a?v=1b045f2f676b8149b0be000c78137f81"
                         target="_blank"

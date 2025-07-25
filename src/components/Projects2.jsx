@@ -27,7 +27,9 @@ const Projects2 = () => {
                     GitHub 기능별 브랜치 전략 및 명확한 커밋 메시지 작성 활용 협업
                 </P.Description>
                 <P.LinkList>
-                    <P.Link>시뮬레이션 링크</P.Link>
+                    <P.Link href="https://youtu.be/AlFn64JhP8A" target="_blank" rel="noopener noreferrer">
+                        시뮬레이션 링크
+                    </P.Link>
                     <P.Link
                         href="https://github.com/LIKELION-HUFS-13th-MANAGEMENT/Recruitment-Frontend"
                         target="_blank"
