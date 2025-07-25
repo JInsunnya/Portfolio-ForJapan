@@ -36,8 +36,8 @@ export const ImageRow = styled.div`
 
 export const Text = styled.div`
     flex: 1;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    margin-left: -30%;
+    margin-left: -25%;
     justify-content: center;
 `;
