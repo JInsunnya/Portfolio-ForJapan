@@ -24,20 +24,16 @@ export const Content = styled.div`
 export const Images = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex: 1;
-`;
-
-export const ImageRow = styled.div`
-    display: flex;
-    gap: 10px;
-    align-items: center;
+    width: 200px;
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
 `;
 
 export const Text = styled.div`
-    flex: 1;
+    margin-left: 40px;
     font-size: 20px;
     text-align: left;
-    margin-left: -25%;
     justify-content: center;
 `;

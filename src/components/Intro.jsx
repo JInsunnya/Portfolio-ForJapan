@@ -7,9 +7,7 @@ const Intro = () => {
         <I.Container>
             <I.Content>
                 <I.Images>
-                    <I.ImageRow>
-                        <img src={Me} />
-                    </I.ImageRow>
+                    <img src={Me} />
                 </I.Images>
                 <I.Text>
                     안녕하세요. <br />
