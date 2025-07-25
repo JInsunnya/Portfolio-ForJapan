@@ -10,6 +10,11 @@ export const Container = styled.div`
     flex-direction: column;
     border-radius: 50px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 768px) {
+        width: 90%;
+        padding: 8%;
+    }
 `;
 
 export const TopGroup = styled.div`
@@ -17,6 +22,12 @@ export const TopGroup = styled.div`
     flex-wrap: wrap;
     gap: 40px;
     align-items: flex-start;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
 `;
 
 export const BottomGroup = styled.div`
@@ -25,6 +36,12 @@ export const BottomGroup = styled.div`
     gap: 40px;
     align-items: flex-start;
     margin-top: 10%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
 `;
 
 export const Name = styled.div`
@@ -32,6 +49,10 @@ export const Name = styled.div`
     align-items: center;
     gap: 20px;
     width: 230px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const NameImg = styled.div`

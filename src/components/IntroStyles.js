@@ -12,6 +12,12 @@ export const Container = styled.div`
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-bottom: 6%;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        padding: 8%;
+        margin-bottom: 10%;
+    }
 `;
 
 export const Content = styled.div`
@@ -19,6 +25,11 @@ export const Content = styled.div`
     align-items: center;
     flex-direction: row;
     width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
 `;
 
 export const Images = styled.div`
@@ -40,4 +51,11 @@ export const Text = styled.div`
     text-align: left;
     margin-left: -25%;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
 `;

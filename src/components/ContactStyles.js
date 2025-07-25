@@ -11,6 +11,11 @@ export const Container = styled.div`
     border-radius: 50px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     margin-bottom: 10%;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        padding: 6% 5%;
+    }
 `;
 
 export const Title = styled.div`
@@ -18,6 +23,11 @@ export const Title = styled.div`
     line-height: 1.5;
     text-align: center;
     margin-bottom: 7%;
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
 `;
 
 export const Contact = styled.div`
@@ -31,6 +41,13 @@ export const Phone = styled.div`
     gap: 30px;
     align-items: center;
     font-size: 19px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 16px;
+    }
 `;
 
 export const PhoneLabel = styled.div`
@@ -48,6 +65,13 @@ export const Email = styled.div`
     gap: 45px;
     align-items: center;
     font-size: 19px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 16px;
+    }
 `;
 
 export const EmailLabel = styled.div`
