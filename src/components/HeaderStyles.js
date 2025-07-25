@@ -11,12 +11,23 @@ export const Container = styled.div`
     align-items: center;
     padding: 2%;
     box-sizing: border-box;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4% 5%;
+    }
 `;
 
 export const Left = styled.div`
     display: flex;
     align-items: center;
     font-size: 22px;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const Right = styled.div`
@@ -24,6 +35,12 @@ export const Right = styled.div`
     gap: 20px;
     align-items: center;
     font-size: 18px;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        font-size: 16px;
+        gap: 10px;
+    }
 `;
 
 export const Name = styled.div`

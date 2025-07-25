@@ -15,6 +15,12 @@ export const MeotsaHufs = styled.div`
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `;
 
 export const MeotsaHufsImg = styled.div`
@@ -25,6 +31,11 @@ export const MeotsaHufsImg = styled.div`
         width: 35%;
         max-width: 200px;
         height: auto;
+
+        @media (max-width: 768px) {
+            width: 60%;
+            margin-bottom: 1rem;
+        }
     }
 `;
 
@@ -34,12 +45,21 @@ export const MeotsaHufsContent = styled.div`
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+
+    @media (max-width: 768px) {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const MeotsaHufsContentTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4%;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 `;
 
 export const MeotsaHufsContentSubTitle = styled.div`
@@ -50,6 +70,10 @@ export const MeotsaHufsContentSubTitle = styled.div`
         text-indent: -1.4em;
         padding-left: 1.4em;
     }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 `;
 
 export const MeotsaAdmin = styled.div`
@@ -57,6 +81,12 @@ export const MeotsaAdmin = styled.div`
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `;
 
 export const MeotsaAdminImg = styled.div`
@@ -67,6 +97,11 @@ export const MeotsaAdminImg = styled.div`
         width: 35%;
         max-width: 200px;
         height: auto;
+
+        @media (max-width: 768px) {
+            width: 60%;
+            margin-bottom: 1rem;
+        }
     }
 `;
 
@@ -76,12 +111,21 @@ export const MeotsaAdminContent = styled.div`
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+
+    @media (max-width: 768px) {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const MeotsaAdminContentTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4%;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 `;
 
 export const MeotsaAdminContentSubTitle = styled.div`
@@ -92,6 +136,10 @@ export const MeotsaAdminContentSubTitle = styled.div`
         text-indent: -1.4em;
         padding-left: 1.4em;
     }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 `;
 
 export const ForA = styled.div`
@@ -99,6 +147,12 @@ export const ForA = styled.div`
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `;
 
 export const ForAImg = styled.div`
@@ -109,6 +163,11 @@ export const ForAImg = styled.div`
         width: 35%;
         max-width: 200px;
         height: auto;
+
+        @media (max-width: 768px) {
+            width: 60%;
+            margin-bottom: 1rem;
+        }
     }
 `;
 
@@ -118,12 +177,21 @@ export const ForAContent = styled.div`
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+
+    @media (max-width: 768px) {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const ForAContentTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4%;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 `;
 
 export const ForAContentSubTitle = styled.div`
@@ -133,5 +201,9 @@ export const ForAContentSubTitle = styled.div`
     li {
         text-indent: -1.4em;
         padding-left: 1.4em;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
     }
 `;
