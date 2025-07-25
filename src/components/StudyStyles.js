@@ -12,6 +12,11 @@ export const Container = styled.div`
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-bottom: 6%;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        padding: 8% 5%;
+    }
 `;
 
 export const Content = styled.div`
@@ -20,6 +25,12 @@ export const Content = styled.div`
     flex-direction: row;
     gap: 0px;
     width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `;
 
 export const Images = styled.div`
@@ -27,18 +38,37 @@ export const Images = styled.div`
     flex-direction: column;
     gap: 10px;
     flex: 1;
+
+    @media (max-width: 768px) {
+        margin-bottom: 1.5rem;
+    }
 `;
 
 export const ImageRow = styled.div`
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
+
+    img {
+        height: auto;
+
+        @media (max-width: 768px) {
+            max-width: 70px;
+        }
+    }
 `;
 
 export const Text = styled.div`
     flex: 1;
     font-size: 15px;
     text-align: left;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
 `;
 
 export const LastText = styled.div`
@@ -54,5 +84,11 @@ export const LastText = styled.div`
 
     a:hover {
         text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
     }
 `;
