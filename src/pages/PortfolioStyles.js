@@ -19,7 +19,7 @@ export const Aboutme = styled.div`
     margin-bottom: 3%;
 
     @media (max-width: 768px) {
-        margin-top: 15%;
+        margin-top: 20%;
     }
 `;
 
