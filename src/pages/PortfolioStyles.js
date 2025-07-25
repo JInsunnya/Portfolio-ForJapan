@@ -13,9 +13,19 @@ export const Container = styled.div`
     text-align: center;
 `;
 
-export const Activity = styled.div`
+export const Aboutme = styled.div`
     font-size: 35px;
     margin-top: 10%;
+    margin-bottom: 3%;
+
+    @media (max-width: 768px) {
+        margin-top: 15%;
+    }
+`;
+
+export const Activity = styled.div`
+    font-size: 35px;
+    margin-top: 15%;
     margin-bottom: 3%;
 `;
 
