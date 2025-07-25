@@ -21,7 +21,7 @@ export const Aboutme = styled.div`
 
 export const Activity = styled.div`
     font-size: 35px;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 3%;
 `;
 

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as P from './PortfolioStyles.js';
 import Header from '../components/Header.jsx';
+import Intro from '../components/Intro.jsx';
 import Aboutme from '../components/Aboutme.jsx';
 import Activity from '../components/Activity.jsx';
 import Project1 from '../components/Projects1.jsx';
@@ -37,6 +38,7 @@ const Portfolio = () => {
                 }}
             />
             <P.Aboutme ref={aboutRef}>ABOUT ME</P.Aboutme>
+            <Intro />
             <Aboutme />
             <P.Activity ref={activityRef}>ACTIVITY</P.Activity>
             <Activity />
