@@ -51,7 +51,6 @@ export const ImageRow = styled.div`
     justify-content: center;
 
     img {
-        max-width: 100px;
         height: auto;
 
         @media (max-width: 768px) {
