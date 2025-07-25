@@ -90,16 +90,15 @@ export const JapanContent = styled.div`
 export const JapanImg = styled.div`
     flex: 1;
     margin-top: 1%;
+    order: 2;
 
     img {
         width: 260px;
         height: auto;
+    }
 
-        @media (max-width: 768px) {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+    @media (max-width: 768px) {
+        order: 1;
     }
 `;
 
@@ -109,10 +108,12 @@ export const JapanText = styled.div`
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    order: 1;
 
     @media (max-width: 768px) {
         align-items: center;
         text-align: center;
+        order: 2;
     }
 `;
 
