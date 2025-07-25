@@ -4,6 +4,7 @@ import * as P from './PortfolioStyles.js';
 import Header from '../components/Header.jsx';
 import Intro from '../components/Intro.jsx';
 import Aboutme from '../components/Aboutme.jsx';
+import MyDevVision from '../components/MyDevVision.jsx';
 import Activity from '../components/Activity.jsx';
 import Project1 from '../components/Projects1.jsx';
 import Project2 from '../components/Projects2.jsx';
@@ -40,6 +41,7 @@ const Portfolio = () => {
             <P.Aboutme ref={aboutRef}>ABOUT ME</P.Aboutme>
             <Intro />
             <Aboutme />
+            <MyDevVision />
             <P.Activity ref={activityRef}>ACTIVITY</P.Activity>
             <Activity />
             <P.Projects ref={projectRef}>PROJECTS</P.Projects>
